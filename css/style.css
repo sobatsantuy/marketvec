@@ -1,0 +1,138 @@
+.bg1 {
+  padding-top: 1rem;
+  background-color: #f0efeb;
+}
+.indexbg1 {
+  background-image: url(wall.png);
+}
+.copyright {
+  color: grey;
+}
+.tugassemester1 {
+  background-color: #f0efeb;
+}
+.create {
+  padding-top: 2rem;
+}
+.iklan {
+  padding-top: 2rem;
+  background-color: #f0efeb;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.creative {
+  padding-top: 2rem;
+}
+.carousel-item {
+  transition: transform 2s ease, opacity 0.5s ease-out;
+}
+.container-ses {
+  padding-left: 10rem;
+  padding-right: 15rem;
+}
+.semicontainer {
+  width: 940px;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.deskripsi span {
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  color: #353535;
+}
+.product img {
+  height: 19vh;
+  margin-bottom: 9px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.product img:hover {
+  opacity: 1;
+}
+
+.preview img {
+  height: 100%;
+}
+p {
+  margin-bottom: 20px;
+}
+.brand {
+  background: #008000;
+  width: fit-content;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 5px;
+}
+h2 {
+  font-size: 45px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.rating {
+  display: flex;
+  height: 15px;
+}
+.rating .fa {
+  color: #008000;
+}
+.price {
+  color: #fe980f;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+input {
+  width: 30px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-align: center;
+}
+button {
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  background: #fe980f;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button .fa {
+  margin-right: 10px;
+}
+.related {
+  width: 90%;
+  margin: 0 auto 40px;
+}
+.related .row {
+  width: 100%;
+  height: auto;
+}
+.columns {
+  flex-basis: 22%;
+  height: 100%;
+}
+.items img {
+  width: 100%;
+}
+.details {
+  margin-top: 20px;
+}
+.details p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.details .rating {
+  margin: 10px 0;
+}
+#Gallery {
+  background-color: #f0efeb;
+}
+
+#Gallery .row > * {
+  padding: 0;
+}

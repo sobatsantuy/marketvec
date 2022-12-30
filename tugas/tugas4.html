@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>
+  <title>Pendaftaran Pasien</title>
+  <style>
+    html,
+    body {
+      min-height: 100%;
+    }
+    h1 {
+      font-family: cursive;
+      text-align: left;
+    }
+    table {
+      width: 100%;
+    }
+    .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+    }
+    form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 8px blue;
+    }
+    fieldset {
+      border: 1px solid rgb(18, 16, 29);
+    }
+  </style>
+  <script>
+    let newTAB;
+
+    function openTAB() {
+      newTAB = window.open("https://www.upy.ac.id/", "_blank", "width=500, height=500");
+    }
+
+    function closeTAB() {
+      newTAB.close();
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <div class="testbox">
+    <form action="#">
+      <table border="0">
+        <tr>
+          <td><i class="fa fa-file" style="font-size: 70px; color: blue"></i></td>
+          <td><h1>Pendaftaran Pasien</h1></td>
+        </tr>
+      </table>
+      <fieldset>
+        <legend>Form Pendaftaran</legend>
+        <table border="0">
+          <tr>
+            <td><label for="Nama">Nama :</label></td>
+            <td><input type="text" id="Nama" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="Nomor_Identitas">Nomor Identitas :</label></td>
+            <td><input type="text" id="Nama" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="Nomor_Identitas">Nomor Hp :</label></td>
+            <td><input type="text" id="Nama" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="Kelas">Kelas :</label></td>
+            <td>
+              <input type="radio" id="Kelas_1" value="Kelas_1" name="Kelas" /><label for="Kelas_1">Kelas 1</label> <input type="radio" id="Kelas_2" value="Kelas_2" name="Kelas" /><label for="Kelas_2">Kelas 2</label>
+              <input type="radio" id="Kelas_3" value="Kelas_3" name="Kelas" /><label for="Kelas_3">Kelas 3</label> <input type="radio" id="VIP" value="VIP" name="Kelas" /><label for="VIP">VIP</label>
+              <input type="radio" id="VVIP" value="VVIP" name="Kelas" /><label for="VVIP">VVIP</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="tanggal">tanggal :</label></td>
+            <td>
+              <select>
+                <option selected value="tanggal" disabled selected>Tanggal</option>
+                <option value="tanggal">1</option>
+                <option value="tanggal">2</option>
+                <option value="tanggal">3</option>
+                <option value="tanggal">4</option>
+                <option value="tanggal">5</option>
+                <option value="tanggal">6</option>
+                <option value="tanggal">7</option>
+                <option value="tanggal">8</option>
+                <option value="tanggal">9</option>
+                <option value="tanggal">11</option>
+                <option value="tanggal">12</option>
+                <option value="tanggal">13</option>
+                <option value="tanggal">14</option>
+                <option value="tanggal">15</option>
+                <option value="tanggal">16</option>
+                <option value="tanggal">17</option>
+                <option value="tanggal">18</option>
+                <option value="tanggal">19</option>
+                <option value="tanggal">20</option>
+                <option value="tanggal">21</option>
+                <option value="tanggal">22</option>
+                <option value="tanggal">23</option>
+                <option value="tanggal">24</option>
+                <option value="tanggal">25</option>
+                <option value="tanggal">26</option>
+                <option value="tanggal">27</option>
+                <option value="tanggal">28</option>
+                <option value="tanggal">29</option>
+                <option value="tanggal">30</option>
+                <option value="tanggal">31</option>
+              </select>
+              <select>
+                <option selected value="Bulan" disabled selected>Bulan</option>
+                <option value="Bulan">Januari</option>
+                <option value="Bulan">Febuari</option>
+                <option value="Bulan">Maret</option>
+                <option value="Bulan">April</option>
+                <option value="Bulan">Mei</option>
+                <option value="Bulan">Juni</option>
+                <option value="Bulan">Juli</option>
+                <option value="Bulan">Aguastus</option>
+                <option value="Bulan">September</option>
+                <option value="Bulan">Oktober</option>
+                <option value="Bulan">November</option>
+                <option value="Bulan">Desember</option>
+              </select>
+              <select>
+                <option selected value="Tahun" disabled selected>Tahun</option>
+                <option value="Tahun">2022</option>
+                <option value="Tahun">2023</option>
+                <option value="Tahun">2024</option>
+                <option value="Tahun">2025</option>
+                <option value="Tahun">2026</option>
+                <option value="Tahun">2027</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Penyakit">Jumlah Penyakit</label></td>
+            <td>
+              <select>
+                <option selected value="Penyakit" disabled selected>Jumlah Penyakit</option>
+                <option value="Penyakit">1</option>
+                <option value="Penyakit">2</option>
+                <option value="Penyakit">3</option>
+                <option value="Penyakit">4</option>
+                <option value="Penyakit">5</option>
+                <option value="Penyakit">Lebih dari 5</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <tr>
+        <p></p>
+        <td><button onclick="openTAB()">KIRIM</button></td>
+        <td><button onclick="closeTAB()">BATAL</button></td>
+      </tr>
+      <h3 align="right">
+        <p><a href="/aboutme/tentangaku.html" style="color: magenta">Kembali</a></p>
+      </h3>
+    </form>
+  </div>
+</body>
